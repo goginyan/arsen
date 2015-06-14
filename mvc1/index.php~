@@ -1,0 +1,19 @@
+<?php 
+
+class Table {
+
+ protected $storage; 
+
+ public function putInStorage ($value){
+
+ return $this -> storage = $value;
+ }
+
+ 
+}
+
+
+$a = new Table();
+echo $a -> putInStorage ('Test');
+//*echo $a -> getInStorage ();
+
