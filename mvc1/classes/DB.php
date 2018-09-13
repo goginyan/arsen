@@ -13,7 +13,7 @@ class DB {
     public function  query ($sql, $class = 'stdClass')
     {
         
-     $res = mysqli_query (mysqli_connect("localhost", "root", "arsenaram081212","test"), $sql);
+     $res = mysqli_query (mysqli_connect("localhost", "root", "","test"), $sql);
      if (false===$res) {
         return false;        
      }
