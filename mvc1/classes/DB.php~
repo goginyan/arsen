@@ -6,7 +6,7 @@ class DB {
     public function __construct ()
     {
       
-    mysqli_connect("localhost", "root", "arsenaram081212","test") or die(mysqli_connect_error());
+    mysqli_connect("localhost", "root", "","test") or die(mysqli_connect_error());
   
     }
 
